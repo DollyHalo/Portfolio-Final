@@ -2,6 +2,7 @@
 /* Place CSS styles here */
 main {
     flex: 1;
+    background-color: #92f39c;
     background: rgb(251, 1, 255);
   }
   
@@ -40,10 +41,12 @@ main {
     color:rgb(255, 0, 200);
   }
   
-  .pre-bday-outer {
+  .salvador-dali-pic1 img {
     background-color: #92f39c;
-    min-height: 100vh;
+    width: 500px;
   }
+
+
   .pre-bday-inner {
     font-size: 17px;
     max-width: 800px;
@@ -69,4 +72,40 @@ main {
     font-size: 20px;
     color:black;
   
+  }
+
+
+  /*2D Artist game board imgs */
+
+  .salvador-dali-pic1 img {
+    width: 500px;
+  }
+
+  .salvador-dali-pic2 img {
+    width: 500px;
+  }
+
+  .salvador-dali-pic3 img {
+    width: 500px;
+  }
+
+  .salvador-dali-pic4 img {
+    width: 500px;
+  }
+
+  .salvador-dali-pic5 img {
+    width: 500px;
+  }
+
+
+
+
+  .rotting-fruit-thumb img {
+    width: 200px;
+  }
+
+
+  .nature-nine-times img {
+
+  width: 200px;
   }
