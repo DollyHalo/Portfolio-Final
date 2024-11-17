@@ -1,5 +1,15 @@
 /* Place CSS styles here */
 /* Place CSS styles here */
+
+
+body {
+  background-color: #3e2e4e; /* Black background */
+  color: #fff; /* White text */
+  margin: 0; /* Remove default margin */
+  font-family: Arial, sans-serif; /* Set default font */
+}
+
+
 main {
     flex: 1;
     background-color: #92f39c;
@@ -53,7 +63,8 @@ main {
   height: 300px; /* Fixed height */
   object-fit: cover; /* Keep aspect ratio intact */
   border-radius: 10px; /* Optional rounded corners */
-  box-shadow: 0 4px 6px rgba(226, 2, 243, 0.1); /* Optional shadow */
+  box-shadow: 0 4px 6px rgba(230, 2, 246, 0.1); /* Optional shadow */
+  border: 2px solid #8800a7;
 }
 
 
