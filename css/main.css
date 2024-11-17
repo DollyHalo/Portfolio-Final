@@ -37,7 +37,24 @@ main {
 
 /*----grid layout---*/
 
+/* Portfolio Grid */
+.portfolio-grid {
+  display: grid; /* Activate CSS Grid */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
+  gap: 10px; /* Spacing between grid items */
+  padding: 33px; /* Padding around the grid */
+  justify-items: center; /* Center content horizontally */
+}
 
+/* Grid Images */
+.portfolio-grid img {
+  width: 100%; /* Make the images fill the container */
+  max-width: 300px; /* Ensure images don't get too large */
+  height: 300px; /* Fixed height */
+  object-fit: cover; /* Keep aspect ratio intact */
+  border-radius: 10px; /* Optional rounded corners */
+  box-shadow: 0 4px 6px rgba(226, 2, 243, 0.1); /* Optional shadow */
+}
 
 
 
