@@ -2,10 +2,11 @@
 $(document).ready(function(){
     $('.carousel').slick({
     
-      slidesToShow: 1,
+      slidesToShow: 15,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 1500,
+      autoplaySpeed: 2000,
+      
     });
   });
 
