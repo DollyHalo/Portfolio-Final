@@ -108,6 +108,11 @@ main {
   }
 
 
+
+
+/*about me page*/
+
+
   .pre-bday-inner {
     font-size: 17px;
     max-width: 800px;
@@ -126,13 +131,19 @@ main {
     color:blueviolet;
   
   
+  
   }
   
   
   .intro-para {
     font-size: 20px;
-    color:black;
+    color:rgb(235, 245, 107);
   
+  }
+
+  .my-name-is {
+    font-size: 20px;
+    color: azure;
   }
 
 
@@ -161,15 +172,6 @@ main {
 
 
 
-  .rotting-fruit-thumb img {
-    width: 200px;
-  }
-
-
-  .nature-nine-times img {
-
-  width: 200px;
-  }
 
 
 
