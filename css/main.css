@@ -126,9 +126,11 @@ main {
   }
   
   .pre-bday-row {
-    display: flex;
-    gap: 20px;
-    color:#ff00c3; 
+    display: block; /* Stack content vertically */
+    width: 100%;    /* Full-width text block */
+    margin: 0 auto; /* Center the content container if necessary */
+    padding: 10px;  /* Add some spacing */
+    text-align: left; /* Align text to the left */
   }
   
   .pre-bday-meta {
