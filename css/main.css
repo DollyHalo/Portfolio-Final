@@ -117,11 +117,16 @@ main {
   h1 {
     font-family: "Rubik Doodle Shadow", system-ui;
     font-weight: 400;
+    text-align: center;
     font-style: normal;
     font-size: 100px;
     background-image: linear-gradient(to bottom right, rgb(0, 229, 255), rgb(252, 117, 243));
     color:rgb(255, 0, 200);
+
+
   }
+
+
   
   .salvador-dali-pic1 img {
     background-color: #92f39c;
@@ -133,6 +138,12 @@ main {
 
 /*about me page*/
 
+.main-gorilla-wrapper {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
 
   .pre-bday-inner {
     font-size: 17px;
@@ -172,6 +183,33 @@ main {
     font-size: 20px;
     color: azure;
   }
+
+
+  .image-text-wrapper {
+    display: flex; /* Use Flexbox */
+    align-items: flex-start; /* Align items at the top */
+    gap: 20px; /* Add space between the image and text */
+    margin: 20px 0; /* Add margin around the wrapper */
+  }
+  
+  .image-text-wrapper img {
+    
+    height: auto;
+  }
+  
+  
+  .text-content {
+    max-width: 600px; /* Limit the width of the text content */
+    text-align: left; /* Ensure the text is aligned to the left */
+    color: #f8f6f6; /* Optional: Adjust text color */
+    font-size: 16px; /* Set font size */
+    line-height: 1.6; /* Improve readability */
+  }
+  
+
+
+
+
 
 
   /*2D Artist game board imgs */
