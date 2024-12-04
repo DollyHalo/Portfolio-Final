@@ -255,8 +255,8 @@ main {
    }
 
 
-   .email-link {
-    color: aquamarine;
+   .email-link a {
+    color: rgb(127, 255, 127);
     font-size: 23px;
    }
 
