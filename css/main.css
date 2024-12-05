@@ -179,10 +179,7 @@ main {
   
   }
 
-  .my-name-is {
-    font-size: 20px;
-    color: azure;
-  }
+
 
 
   .image-text-wrapper {
@@ -202,7 +199,7 @@ main {
     max-width: 600px; /* Limit the width of the text content */
     text-align: left; /* Ensure the text is aligned to the left */
     color: #f8f6f6; /* Optional: Adjust text color */
-    font-size: 16px; /* Set font size */
+    font-size: 20px; /* Set font size */
     line-height: 1.6; /* Improve readability */
   }
   
@@ -264,3 +261,33 @@ main {
     font-size: 23px;
    }
 
+
+ /*----Nature Nine Times---*/
+
+ .main-nature-wrapper {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
+
+.image-nature-text-wrapper {
+  display: flex; /* Use Flexbox */
+  align-items: flex-start; /* Align items at the top */
+  gap: 20px; /* Add space between the image and text */
+  margin: 20px 0; /* Add margin around the wrapper */
+}
+
+.image-nature-text-wrapper img {
+  
+  height: auto;
+}
+
+
+.nature-text-content {
+  max-width: 600px; /* Limit the width of the text content */
+  text-align: left; /* Ensure the text is aligned to the left */
+  color: #f8f6f6; /* Optional: Adjust text color */
+  font-size: 20px; /* Set font size */
+  line-height: 1.6; /* Improve readability */
+}
